@@ -1,0 +1,1129 @@
+  @media screen and (min-width:50px) and (max-width:460px) {
+    body{
+      background-color: aliceblue;
+      border: none ;
+      height: 3787px;
+     }
+      nav{
+      padding: 20px; 
+    } 
+    .navmenu{
+      display: flex;
+      justify-content:end;
+      position: absolute;
+      left: 420px;
+      top: 40px;
+      z-index: 2;
+    }
+    .text{
+      text-decoration: none;
+      color:azure;
+
+    }
+    .list12{
+      font-weight: bold;
+      font-size: 28px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .list123{
+      display: none;
+      list-style: none;
+   }
+   #toggle:checked~.list123{
+    border: none;
+    border-radius: 5px;
+    background-color:cadetblue;
+    height: 500px;
+    width: 460px;
+     display: block;
+     background-color:; 
+     cursor: pointer; 
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: space-evenly;
+     position: relative;
+     right: 452px;
+     top: 85px; 
+     opacity: 0.9;
+   }
+   .list12:hover{
+    color: orange;
+    cursor: pointer;
+   }
+  
+    
+    .item1{
+      display: none;
+    }
+    .item1:hover{
+      color: orange;
+      transform: scale(1.1);
+    }
+    .container{
+      width:400px;
+      background-color:aliceblue;
+      display: grid;
+      justify-content: space-evenly;
+      grid-template-columns:auto;
+      grid-template-rows:auto;
+      padding: 10px;
+      margin: 20px;
+      text-align: center;
+      position: relative;
+      left: 23px;
+    }
+    .child1:hover{
+      cursor: pointer;
+      transform: scale(101%);
+    }
+    .child1{
+      border-radius: 5px;
+      background-color: white;
+      width: 410px;
+      height: 860px;
+      margin: 10px;
+      padding: 10px;
+    }
+    .head{
+      position: relative;
+      top: 415px;
+      font-family: Helvetica; 
+    }
+  
+    .date{
+      color:#1FA8D9;
+      font-size: 20px;
+    }
+    .title1{
+      font-size: 26px;
+      color: black;
+      line-height: 1.4;
+      font-weight: bold;
+    } 
+    .content{
+      font-size:20px ;
+      color: #949494;
+      line-height: 1.6;
+    }
+    .text123{
+      text-decoration: none;
+    }
+    #photo1{
+      background-image: url(./Brokpa_man1.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo2{
+      background-image: url(./Charminar.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo3{
+      background-image: url(./Shri_Ram_Janmabhoomi_Teerth_Kshetra_Trust1-1.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo4{
+      background-image: url(./Tastes2plate1.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo5{
+      background-image: url(./masan-holi-2_N181.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo6{
+      background-image: url(./Savaari-travel-magazine-2024.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo7{
+      background-image: url(./second-launch-pad-1.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo8{
+      background-image: url(./Tusk_Travel1-1.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo9{
+      background-image: url(./Travel.Earth_-1.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    #photo10{
+      background-image: url(./Adiyogi_Shiva_statue_from_Isha1.webp);
+      background-repeat: no-repeat;
+      background-size: contain; 
+    }
+    .next{
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      position: relative;
+      left:90px;
+    }
+    .item2{
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1FA8D9;
+      font-size: 17px;
+      font-weight: bold;
+      border: 1px solid white;
+      padding:14px 24px;
+    }
+  
+    /*---------body end--------*/
+   .md{
+     border: none;
+     width: 450px;
+     padding: 30px;
+     margin: 20px;
+     position: relative;
+     cursor: pointer;
+    }
+    hr{
+     border-color: #a8e4fa;
+    }
+   .searchbox{
+     padding: 20px;
+     display:flex;
+     font-size: 22px;
+     font-family: helvetica;
+    }
+    .box1{
+     border: 1px solid #1FA8D9;
+     width: 220px;
+     height: 39px;
+    }
+  
+    .box2{
+     border: 1px solid #1FA8D9;
+     width: 120px;
+     height: 39px;
+     background-color: #f5ba14;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     cursor: pointer;
+    }
+    #heading{
+     font-size: 27px;
+     font-family: helvetica;
+     font-weight: bolder;
+    }
+    #sh{
+      position: relative;
+      top: 8px;
+    }
+    li{
+      list-style-type: none;
+      color: #777777;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 22px;
+     }
+    /*------------footer start-------------*/
+    footer{
+     border: 2px solid black;
+     width: 424px;
+     padding: 50px;
+     display: flexbox;
+     justify-content: space-around;
+     position: relative;
+     /* bottom: 1000px; */
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     background-color: black;
+    }
+     
+   }
+
+
+
+                  /*--------tablet----------*/
+             @media screen and (min-width:460px) and (max-width:1024px){
+              body{
+                background-color: aliceblue;
+                border: none ;
+                height: 3787px;
+               }
+          
+               nav{
+                border: none;
+                background-color: white;
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                font-family: sans-serif;
+                font-weight: bold;
+                padding: 20px;
+                position: relative;
+                gap: 15px;
+                left: 200px;
+              }
+              .navmenu{
+                display: none;
+              }
+                .item1{
+                  position: relative;
+                  top: 40px;
+                  text-decoration: none;
+                  color: black;
+                  cursor: pointer;
+                  text-transform: uppercase;
+                }
+                .item1:hover{
+                  color: orange;
+                  transform: scale(1.1);
+                }
+                .container{
+                  width:690px;
+                  background-color:aliceblue;
+                  display: grid;
+                  justify-content: space-evenly;
+                  grid-template-columns:auto auto;
+                  grid-template-rows:auto auto ;
+                  padding: 10px;
+                  margin: 20px;
+                  text-align: center;
+                  position: relative;
+                  left: 150px;
+                }
+                .child1:hover{
+                  cursor: pointer;
+                  transform: scale(101%);
+                }
+                .child1{
+                  border-radius: 5px;
+                  background-color: white;
+                  width: 300px;
+                  height: 600px;
+                  margin: 10px;
+                  padding: 10px;
+                }
+                .head{
+                  position: relative;
+                  top: 215px;
+                  font-family: Helvetica; 
+                }
+          
+                .date{
+                  color:#1FA8D9;
+                  font-size: 18px;
+                }
+                .title1{
+                  font-size: 24px;
+                  color: black;
+                  line-height: 1.4;
+                  font-weight: bold;
+                } 
+                .content{
+                  font-size:15px ;
+                  color: #949494;
+                  line-height: 1.6;
+                }
+                .text123{
+                  text-decoration: none;
+                }
+                #photo1{
+                  background-image: url(./Brokpa_man1.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo2{
+                  background-image: url(./Charminar.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo3{
+                  background-image: url(./Shri_Ram_Janmabhoomi_Teerth_Kshetra_Trust1-1.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo4{
+                  background-image: url(./Tastes2plate1.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo5{
+                  background-image: url(./masan-holi-2_N181.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo6{
+                  background-image: url(./Savaari-travel-magazine-2024.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo7{
+                  background-image: url(./second-launch-pad-1.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo8{
+                  background-image: url(./Tusk_Travel1-1.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo9{
+                  background-image: url(./Travel.Earth_-1.webp);
+                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                #photo10{
+                  background-image: url(./Adiyogi_Shiva_statue_from_Isha1.webp);                  background-repeat: no-repeat;
+                  background-size: contain; 
+                }
+                .next{
+                  display: flex;
+                  gap: 10px;
+                  justify-content: center;
+                  position: relative;
+                  left: 160px;
+                }
+                .item2{
+                  background-color: white;
+                  font-family: Arial, Helvetica, sans-serif;
+                  color: #1FA8D9;
+                  font-size: 17px;
+                  font-weight: bold;
+                  border: 1px solid white;
+                  padding:10px 17px;
+                }
+        
+                /*---------body end--------*/
+               .md{
+                 border: none;
+                 width: 350px;
+                 padding: 30px;
+                 margin: 20px;
+                 position: relative;
+                 left: 850px;
+                 bottom: 3265px;
+                 cursor: pointer;
+                }
+                hr{
+                 border-color: #a8e4fa;
+                }
+               .searchbox{
+                 padding: 20px;
+                 display:flex;
+                 font-size: 14px;
+                 font-family: helvetica;
+                }
+                .box1{
+                 border: 1px solid #1FA8D9;
+                 width: 220px;
+                 height: 39px;
+                }
+         
+                .box2{
+                 border: 1px solid #1FA8D9;
+                 width: 120px;
+                 height: 39px;
+                 background-color: #f5ba14;
+                 color: white;
+                 font-weight: bold;
+                 text-align: center;
+                 cursor: pointer;
+                }
+                #heading{
+                 font-size: 20px;
+                 font-family: helvetica;
+                 font-weight: bolder;
+                }
+                #sh{
+                  position: relative;
+                  top: 11px;
+                }
+                li{
+                  list-style-type: none;
+                  color: #777777;
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-size: 14px;
+                 }
+                /*------------footer start-------------*/
+                footer{
+                  border: 2px solid black;
+                  width: 1200px;
+                  padding: 50px;
+                  display: flexbox;
+                  justify-content: space-around;
+                  position: relative;
+                  bottom: 708px;
+                  font-size: 15px;
+                  font-family: Arial, Helvetica, sans-serif;
+                  color: white;
+                  background-color: black;
+                  text-align: center;
+                 }
+            }
+
+
+
+
+                 /*--------laptop 1024px--------------*/
+
+
+   @media screen and (min-width:1024px) and (max-width:1440px){
+    body{
+      background-color: aliceblue;
+      border: none ;
+      height: 3787px;
+     }
+
+       nav{
+       border: none;
+       background-color: white;
+       list-style: none;
+       display: flex;
+       justify-content: space-around;
+       font-family: sans-serif;
+       font-weight: bold;
+       padding: 20px;
+       position: relative;
+       left: 150px;
+
+      }
+      .navmenu{
+        display: none;
+      }
+      .item1{
+        position: relative;
+        top: 40px;
+          text-decoration: none;
+          color: black;
+          cursor: pointer;
+      }
+      .item1:hover{
+        color: orange;
+        transform: scale(1.1);
+      }
+      .container{
+        width:690px;
+        background-color:aliceblue;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns:auto auto;
+        grid-template-rows:auto auto ;
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        position: relative;
+        left: 150px;
+      }
+      .child1:hover{
+        cursor: pointer;
+        transform: scale(101%);
+      }
+      .child1{
+        border-radius: 5px;
+        background-color: white;
+        width: 300px;
+        height: 600px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .head{
+        position: relative;
+        top: 215px;
+        font-family: Helvetica; 
+      }
+
+      .date{
+        color:#1FA8D9;
+        font-size: 18px;
+      }
+      .title1{
+        font-size: 24px;
+        color: black;
+        line-height: 1.4;
+        font-weight: bold;
+      } 
+      .content{
+        font-size:15px ;
+        color: #949494;
+        line-height: 1.6;
+      }
+      .text123{
+        text-decoration: none;
+      }
+      #photo1{
+        background-image: url(./Brokpa_man1.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo2{
+        background-image: url(./Charminar.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo3{
+        background-image: url(./Shri_Ram_Janmabhoomi_Teerth_Kshetra_Trust1-1.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo4{
+        background-image: url(./Tastes2plate1.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo5{
+        background-image: url(./masan-holi-2_N181.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo6{
+        background-image: url(./Savaari-travel-magazine-2024.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo7{
+        background-image: url(./second-launch-pad-1.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo8{
+        background-image: url(./Tusk_Travel1-1.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo9{
+        background-image: url(./Travel.Earth_-1.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      #photo10{
+        background-image: url(./Adiyogi_Shiva_statue_from_Isha1.webp);
+        background-repeat: no-repeat;
+        background-size: contain; 
+      }
+      .next{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        position: relative;
+        right: auto;
+      }
+      .item2{
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1FA8D9;
+        font-size: 17px;
+        font-weight: bold;
+        border: 1px solid white;
+        padding:10px 17px;
+      }
+
+      /*---------body end--------*/
+      .md{
+        border: none;
+        width: 350px;
+        padding: 30px;
+        margin: 20px;
+        position: relative;
+        left: 850px;
+        bottom: 3265px;
+        cursor: pointer;
+      }
+      hr{
+        border-color: #a8e4fa;
+      }
+      .searchbox{
+        padding: 20px;
+        display:flex;
+        font-size: 14px;
+        font-family: helvetica;
+      }
+      .box1{
+        border: 1px solid #1FA8D9;
+        width: 220px;
+        height: 39px;
+      }
+
+      .box2{
+        border: 1px solid #1FA8D9;
+        width: 120px;
+        height: 39px;
+        background-color: #f5ba14;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+      }
+      #heading{
+        font-size: 20px;
+        font-family: helvetica;
+        font-weight: bolder;
+      }
+      #sh{
+        position: relative;
+        top: 11px;
+      }
+      li{
+        list-style-type: none;
+        color: #777777;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+     }
+     /*------------footer start-------------*/
+     footer{
+      border: 2px solid black;
+      width: 1170px;
+      padding: 50px;
+      display: grid;
+      justify-content: space-around;
+      position: relative;
+      bottom: 700px;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background-color: black;
+     }
+     .imgs11{
+      position: absolute;
+      left: 120px;
+     }
+   }
+          /*----lapton 1440px-------*/
+   @media screen and (min-width:1440px) and (max-width:2560px) {
+        
+       body{
+        background-color: aliceblue;
+        border: none ;
+        height: 3787px;
+       }
+
+         nav{
+         border: none;
+         background-color: white;
+         list-style: none;
+         display: flex;
+         justify-content: space-around;
+         font-family: sans-serif;
+         font-weight: bold;
+         padding: 20px;
+         margin-right: 190px;
+        }
+        .navmenu{
+          display: none;
+        }
+        .item1{
+          position: relative;
+          top: 40px;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+        .item1:hover{
+          color: orange;
+          transform: scale(1.1);
+        }
+        .container{
+          width:690px;
+          background-color:aliceblue;
+          display: grid;
+          justify-content: space-evenly;
+          grid-template-columns:auto auto;
+          grid-template-rows:auto auto ;
+          padding: 10px;
+          margin: 20px;
+          text-align: center;
+          position: relative;
+          left: 150px;
+        }
+        .child1:hover{
+          cursor: pointer;
+          transform: scale(101%);
+        }
+        .child1{
+          border-radius: 5px;
+          background-color: white;
+          width: 300px;
+          height: 600px;
+          margin: 10px;
+          padding: 10px;
+        }
+        .head{
+          position: relative;
+          top: 215px;
+          font-family: Helvetica; 
+        }
+
+        .date{
+          color:#1FA8D9;
+          font-size: 18px;
+        }
+        .title1{
+          font-size: 24px;
+          color: black;
+          line-height: 1.4;
+          font-weight: bold;
+        } 
+        .content{
+          font-size:15px ;
+          color: #949494;
+          line-height: 1.6;
+        }
+        .text123{
+          text-decoration: none;
+        }
+        #photo1{
+          background-image: url(./Brokpa_man1.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo2{
+          background-image: url(./Charminar.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo3{
+          background-image: url(./Shri_Ram_Janmabhoomi_Teerth_Kshetra_Trust1-1.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo4{
+          background-image: url(./Tastes2plate1.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo5{
+          background-image: url(./masan-holi-2_N181.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo6{
+          background-image: url(./Savaari-travel-magazine-2024.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo7{
+          background-image: url(./second-launch-pad-1.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo8{
+          background-image: url(./Tusk_Travel1-1.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo9{
+          background-image: url(./Travel.Earth_-1.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        #photo10{
+          background-image: url(./Adiyogi_Shiva_statue_from_Isha1.webp);
+          background-repeat: no-repeat;
+          background-size: contain; 
+        }
+        .next{
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          position: relative;
+          right: 177px;
+        }
+        .item2{
+          background-color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #1FA8D9;
+          font-size: 17px;
+          font-weight: bold;
+          border: 1px solid white;
+          padding:10px 17px;
+        }
+
+        /*---------body end--------*/
+        .md{
+          border: none;
+          width: 350px;
+          padding: 30px;
+          margin: 20px;
+          position: relative;
+          left: 850px;
+          bottom: 3265px;
+          cursor: pointer;
+        }
+        hr{
+          border-color: #a8e4fa;
+        }
+        .searchbox{
+          padding: 20px;
+          display:flex;
+          font-size: 14px;
+          font-family: helvetica;
+        }
+        .box1{
+          border: 1px solid #1FA8D9;
+          width: 220px;
+          height: 39px;
+        }
+
+        .box2{
+          border: 1px solid #1FA8D9;
+          width: 120px;
+          height: 39px;
+          background-color: #f5ba14;
+          color: white;
+          font-weight: bold;
+          text-align: center;
+          cursor: pointer;
+        }
+        #heading{
+          font-size: 20px;
+          font-family: helvetica;
+          font-weight: bolder;
+        }
+        #sh{
+          position: relative;
+          top: 11px;
+        }
+        li{
+          list-style-type: none;
+          color: #777777;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+       }
+       /*------------footer start-------------*/
+       footer{
+        border: 2px solid black;
+        width: 1425px;
+        padding: 50px;
+        display: grid;
+        justify-content: space-around;
+        position: relative;
+        bottom: 700px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+       }
+    }
+
+    /* ----------larg desktop--------------- */
+
+    @media screen and (min-width:1840px) and (max-width:2560px) {
+        
+      body{
+       background-color: aliceblue;
+       border: none ;
+       height: 3787px;
+      }
+
+        nav{
+        border: none;
+        width: 1800px;
+        background-color: white;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 20px;
+        margin-right: 190px;
+        position: relative;
+        left: 250px;
+       }
+       .navmenu{
+         display: none;
+       }
+       .item1{
+         position: relative;
+         top: 40px;
+           text-decoration: none;
+           color: black;
+           cursor: pointer;
+       }
+       .item1:hover{
+         color: orange;
+         transform: scale(1.1);
+       }
+       .container{
+         width:690px;
+         background-color:aliceblue;
+         display: grid;
+         justify-content: space-evenly;
+         grid-template-columns:auto auto;
+         grid-template-rows:auto auto ;
+         padding: 10px;
+         margin: 20px;
+         text-align: center;
+         position: relative;
+         left: 700px;
+       }
+       .child1:hover{
+         cursor: pointer;
+         transform: scale(101%);
+       }
+       .child1{
+         border-radius: 5px;
+         background-color: white;
+         width: 300px;
+         height: 600px;
+         margin: 10px;
+         padding: 10px;
+       }
+       .head{
+         position: relative;
+         top: 215px;
+         font-family: Helvetica; 
+       }
+
+       .date{
+         color:#1FA8D9;
+         font-size: 18px;
+       }
+       .title1{
+         font-size: 24px;
+         color: black;
+         line-height: 1.4;
+         font-weight: bold;
+       } 
+       .content{
+         font-size:15px ;
+         color: #949494;
+         line-height: 1.6;
+       }
+       .text123{
+         text-decoration: none;
+       }
+       #photo1{
+         background-image: url(./Brokpa_man1.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo2{
+        background-image: url(./Charminar.webp);
+        background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo3{
+         background-image: url(./Shri_Ram_Janmabhoomi_Teerth_Kshetra_Trust1-1.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo4{
+         background-image: url(./Tastes2plate1.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo5{
+         background-image: url(./masan-holi-2_N181.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo6{
+         background-image: url(./Savaari-travel-magazine-2024.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo7{
+         background-image: url(./second-launch-pad-1.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo8{
+         background-image: url(./Tusk_Travel1-1.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo9{
+         background-image: url(./Travel.Earth_-1.webp);
+         background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       #photo10{
+        background-image: url(./Adiyogi_Shiva_statue_from_Isha1.webp);
+        background-repeat: no-repeat;
+         background-size: contain; 
+       }
+       .next{
+         display: flex;
+         gap: 10px;
+         justify-content: center;
+         position: relative;
+         right: 177px;
+       }
+       .item2{
+         background-color: white;
+         font-family: Arial, Helvetica, sans-serif;
+         color: #1FA8D9;
+         font-size: 17px;
+         font-weight: bold;
+         border: 1px solid white;
+         padding:10px 17px;
+       }
+
+       /*---------body end--------*/
+       .md{
+         border: none;
+         width: 350px;
+         padding: 30px;
+         margin: 20px;
+         position: relative;
+         left: 1400px;
+         bottom: 3333px;
+         cursor: pointer;
+       }
+       hr{
+         border-color: #a8e4fa;
+       }
+       .searchbox{
+         padding: 20px;
+         display:flex;
+         font-size: 14px;
+         font-family: helvetica;
+       }
+       .box1{
+         border: 1px solid #1FA8D9;
+         width: 220px;
+         height: 39px;
+       }
+
+       .box2{
+         border: 1px solid #1FA8D9;
+         width: 120px;
+         height: 39px;
+         background-color: #f5ba14;
+         color: white;
+         font-weight: bold;
+         text-align: center;
+         cursor: pointer;
+       }
+       #heading{
+         font-size: 20px;
+         font-family: helvetica;
+         font-weight: bolder;
+       }
+       #sh{
+         position: relative;
+         top: 11px;
+       }
+       li{
+         list-style-type: none;
+         color: #777777;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 14px;
+      }
+      /*------------footer start-------------*/
+      footer{
+       border: 2px solid black;
+       width: 164em;
+       padding: 50px;
+       display: grid;
+       justify-content: space-around;
+       position: relative;
+       bottom: 700px;
+       font-size: 15px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: white;
+       background-color: black;
+      }
+   }
+    
